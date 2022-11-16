@@ -1,13 +1,65 @@
-body {
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+body{
+  background-color: #152238;
+ 
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* NAVbar designing */
+.navbar-box{
+  background-color: #152238;
+  font-family: 'Sono', sans-serif;
+}
+ .nav-scroll{
+  overflow-x: scroll;
+  -ms-overflow-style: none;  
+  scrollbar-width: none; 
+}
+
+ .nav-scroll::-webkit-scrollbar { 
+  display: none; 
+ } 
+ .icons{
+  font-size: 2rem;
+  color: white;
+ }
+.nav-logo{
+  font-size: 2rem;
+  color: white;
+}
+.menu{
+  display: flex;
+  flex-direction: row;
+}
+
+/* movie item */
+.movieItem{
+background-color: #152238;
+color: white;
+transition: transform .2s;
+}
+.movieItem:hover{
+  transform: scale(1.05);
+  z-index: 1;
+}
+
+.toprated-menu{
+  position: relative;
+  z-index: 2;
+}
+
+
+/* media queries */
+@media screen and (max-width: 679px) {
+ .nav-logo{
+  display: inline-block;
+  margin: auto;
+ }
+ .menu{
+margin: auto;
+ }
 }
