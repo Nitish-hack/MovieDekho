@@ -1,3 +1,7 @@
+#MovieDekho
+MovieDekho is a movie listing app fully responsive and dynamic made using react and movie api it fetches live data and then uses it to render the pages , in this website user can get movies of different genres ,top rated movies of different countries and many more
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
