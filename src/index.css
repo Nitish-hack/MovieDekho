@@ -17,6 +17,7 @@ body{
  .nav-scroll{
  
   overflow-x: scroll;
+
   -ms-overflow-style: none;  
   scrollbar-width: none; 
 }
@@ -60,17 +61,6 @@ transition: transform .2s;
 
 
 
-/* media queries */
-
-@media screen and (max-width: 984px) {
- .nav-logo{
-  display: inline-block;
-  margin: auto;
- }
- .menu{
-  margin: auto;
-   }
-}
 
 
 
@@ -92,3 +82,29 @@ visibility: hidden;
 visibility: visible;
 }
 
+.genre{
+  
+  border-radius: 20px;
+  padding:7px 12px;
+  
+}
+.genre:hover{
+background-color: #767474;
+}
+
+/* media queries */
+
+@media screen and (max-width: 984px) {
+  .d-menu{
+    display: inline-block;
+    margin: auto;
+
+  }
+ .nav-logo{
+  display: inline-block;
+  margin: auto;
+ }
+ .menu{
+  margin: auto;
+   }
+}
