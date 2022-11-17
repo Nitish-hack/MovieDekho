@@ -1,4 +1,4 @@
-#MovieDekho
+# MovieDekho
 MovieDekho is a movie listing app fully responsive and dynamic made using react and movie api it fetches live data and then uses it to render the pages , in this website user can get movies of different genres ,top rated movies of different countries and many more
 
 
